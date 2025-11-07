@@ -1,0 +1,27 @@
+#icoSearch{
+    height: 16px;
+}
+#icoSearch:hover{
+    color: aliceblue;
+}
+#coleccionfemenina{
+    font-size: 40px;
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+.femenina{
+    width: 100%;
+    height: 183vh;
+}
+@media screen and (min-width:414px) and (max-width:414px){
+    .femenina{
+        width: 100%;
+        height: 628vh;
+        /* text-align: center; */
+    }
+    .femenina .section-header{
+        text-align: center;
+    } 
+}

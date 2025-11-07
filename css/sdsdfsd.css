@@ -1,0 +1,85 @@
+ul{
+    /* width: 100%; */
+    /* background-color: palegreen; */
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+}
+/* #navbarSupportedContent{
+    margin-left: 1000px;
+} */
+
+/* button{
+    width: 150px;
+    height: 70px;
+    margin: 5px;
+    text-decoration: none;
+} */
+section{
+    height: 170vh;
+    width: 100%;
+}
+li{
+    margin: 5px;
+}
+#descripcion #todo{
+    align-items: center;
+    margin-left: 60px ;
+}
+.btn-g{
+    width: 130px;
+    height: 50px;
+    background-color: rgb(216, 216, 216);
+    text-align: center;
+    color: black;
+    padding-top: 13px;
+
+}
+.btn-r{
+    width: 400px;
+    height: 80px;
+    padding-top: 25px ;
+    font-size: 20px;
+    margin: 5px;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+
+@media screen and (min-width:414px) and (max-width:414px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    section{
+        width: 100%;
+        height: 356vh;
+    }
+    footer{
+        height: 45vh;
+    }
+    .container1{
+        width: 100%;
+        height: 345vh;
+    }
+    
+
+    .btn-r{
+        width: 350px;
+        margin-left: 20px;
+    }
+    #imagenes{
+        /* grid-template-columns: repeat(1, auto); */
+        margin: 5px;
+        width: 586px;
+        height: 434.25px;
+        margin-left: 13px;
+    }
+    /* .navbar-nav{
+        width: 30px;
+        height: 30px;
+    } */
+    
+}
